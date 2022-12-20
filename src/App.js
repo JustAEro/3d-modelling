@@ -1,20 +1,29 @@
-import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import React from "react";
+import { Helmet } from "react-helmet";
+import { 
+  BrowserRouter as Router, 
+  Routes,
+  Route 
+} from 'react-router-dom';
 
-function Model(props) {
-  const { scene } = useGLTF("/untitled.glb");
-  return <primitive object={scene} />;
-}
+import ModelCanvas from "./Components/ModelCanvas";
+import NotFound from "./Components/NotFound";
+import MainPage from "./Components/MainPage";
 
 export default function App() {
+  const TITLE = "3Dmodelling";
   return (
-    <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
-      <ambientLight intensity={1} />
-      <Suspense fallback={null}>
-        <Model />
-      </Suspense>
-      <OrbitControls />
-    </Canvas>
+    <div>
+      <Helmet>
+        <title>{ TITLE }</title>
+      </Helmet>
+      <Router>
+        <Routes>
+          <Route path="*" element={<NotFound/>}></Route>
+          <Route path="/" element={<MainPage/>}></Route>
+          <Route path="/canvas" element={<ModelCanvas/>}></Route>
+        </Routes>
+      </Router>
+    </div>
   );
 }
