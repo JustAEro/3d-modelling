@@ -10,5 +10,47 @@ header {
         top: 1vh;
         width: 10vh;
         height: 10vh;    
-    }    
+    }
+    
+    .load-model-link{
+        text-decoration: none;
+    }
+
+    .load-model{
+        position: relative;
+        left: 56vw;
+        top: 1.5vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        color: #FFFFFF;
+        
+    }
+
+    .login-reg-button{
+        position: absolute;
+        width: 15vw;
+        height: 5vh;
+        right: 6vw;
+        top: 3.3vh;
+        border-radius: 20px;
+        background-color: #1E1E1E;
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+    }
+
+    .login-reg{
+        position: relative;
+        bottom: 2vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
 }

@@ -11,7 +11,7 @@ function Model(props) {
 
 export default function ModelCanvas() {
   return (
-    <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
+    <Canvas className="model-canvas" pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
       <ambientLight intensity={1} />
       <Suspense fallback={null}>
         <Model />

@@ -1,10 +1,14 @@
 import React from "react";
 import Header from "./Header";
+import GroupOfCards from "./GroupOfCards";
 
 
 export default function MainPage() {
 
     return (
-        <Header/>
+        <div>
+            <Header />
+            <GroupOfCards />
+        </div>
     );
 }

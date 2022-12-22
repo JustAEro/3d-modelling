@@ -7,10 +7,16 @@ import "./Header.scss"
 export default function Header() {
     return (
         <header>
-            <Link to="/canvas">
+            <Link to="/">
                 <img className="Logo" src="/3DLogo.png" alt="Error"/>
             </Link>
-            <SearchPanel/>
+            <SearchPanel />
+            <Link className="load-model-link" to="/canvas">
+                <h3 className="load-model">Загрузить модель</h3>
+            </Link>
+            <Link className="login-reg-button" to="/canvas">
+                <h3 className="login-reg">Вход / регистрация</h3>
+            </Link>
         </header>
     );
 }
