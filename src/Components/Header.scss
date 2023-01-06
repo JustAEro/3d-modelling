@@ -18,8 +18,10 @@ header {
 
     .load-model{
         position: relative;
+        width: fit-content;
+        height: fit-content;
         left: 56vw;
-        top: 1.5vh;
+        top: 35%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -45,7 +47,7 @@ header {
 
     .login-reg{
         position: relative;
-        bottom: 2vh;
+        top: 15%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;

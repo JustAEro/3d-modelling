@@ -9,6 +9,8 @@ import {
 import ModelCanvas from "./Components/ModelCanvas";
 import NotFound from "./Components/NotFound";
 import MainPage from "./Components/MainPage";
+import LoginPage from "./Components/LoginPage";
+import RegisterPage from "./Components/RegisterPage";
 
 export default function App() {
   const TITLE = "3Dmodelling";
@@ -21,6 +23,8 @@ export default function App() {
         <Routes>
           <Route path="*" element={<NotFound/>}></Route>
           <Route path="/" element={<MainPage/>}></Route>
+          <Route path="/login" element={<LoginPage/>}></Route>
+          <Route path="/register" element={<RegisterPage/>}></Route>
           <Route path="/canvas" element={<ModelCanvas/>}></Route>
         </Routes>
       </Router>

@@ -1,0 +1,83 @@
+.login-form{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 30vw;
+    height: 70vh;
+    transform: translate(115%,10%);
+    position: absolute;
+    top: 12vh;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto';
+
+    .login-form-name{
+        text-align: center;
+        transform: translate(12.5vw,50%);
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .label-user{
+        transform: translate(0,60%);
+        height: 10%;
+        width: 100px;
+    }
+
+    .label-passwd{
+        transform: translate(0,80%);
+        height: 10%;
+        width: 100px;
+    }
+
+    .form-control-username{
+        transform: translate(10%,30%);
+        width: 25vw;
+        height: 10%;
+        
+    }
+
+    input[type="text"]{
+        height: fit-content;
+    }
+    input[type="password"]{
+        height: fit-content;
+    }
+
+    .invalid-feedback{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .form-control-passwd{
+        transform: translate(10%,40%);
+        width: 25vw;
+        height: 10%;
+        
+    }
+
+    .login-button{
+        background-color: #C25200;
+        transform: translate(1%,170%);
+        width: 110px;
+        height: 5vh;
+        border: 0;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+
+    .h5-reg{
+        width: 300px;
+        height: fit-content;
+        transform: translate(5.5vw,9.5vh);
+    }
+
+    .register-button{
+        background-color: #000000;
+        border: 0;
+        border-radius: 10px;
+        color: #ffffff;
+        width: 110px;
+        height: 5vh;
+        transform: translate(1%,200%);
+    }
+}

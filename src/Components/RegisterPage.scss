@@ -1,0 +1,82 @@
+.register-form{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 30vw;
+    height: 80vh;
+    position: absolute;
+    top: 15vh;
+    left: 35%;
+    font-family: 'Roboto';
+    text-align: center;
+    align-items: center;
+    
+    .reg-form-name{
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        transform: translate(110%,30%);
+    }
+
+    .label-first-name{
+        height: 25px;
+        width: 100px;
+    }
+
+    input[type="text"]{
+        width: 25vw;
+        height: 7%;
+        transform: translate(10%,0);
+    }
+
+    .label-last-name{
+        height: 25px;
+        width: 100px;
+    }
+
+    .label-username{
+        height: 25px;
+        width: 100px;
+    }
+
+    .label-passwd{
+        height: 25px;
+        width: 100px;
+    }
+
+    input[type="password"]{
+        width: 25vw;
+        height: 7%;
+        transform: translate(10%,0);
+    }
+
+    .invalid-feedback{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .register-button{
+        width: 150px;
+        height: 5vh;
+        transform: translate(0,50%);
+        background-color: #C25200;
+        border: 0;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+
+    .h5-log{
+        width: 300px;
+        height: fit-content;
+        transform: translate(27%,50%);
+    }
+
+    .login-button{
+        width: 150px;
+        height: 5vh;
+        transform: translate(0,70%);
+        background-color: #000000;
+        border: 0;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+}

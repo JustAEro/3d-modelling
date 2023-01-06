@@ -1,34 +1,20 @@
 import React from "react";
 
+import CardOfModel from "./CardOfModel";
+
 import './GroupOfCards.scss';
 
 export default function GroupOfCards () {
     return (
         <div className="wrapper">
-            <div className="card">
-                Пользователь 1
-            </div>
-            <div className="card">
-                Пользователь 2
-            </div>
-            <div className="card">
-                Пользователь 3 
-            </div>
-            <div className="card">
-                Пользователь 4
-            </div>
-            <div className="card">
-                Пользователь 5
-            </div>
-            <div className="card">
-                Пользователь 6
-            </div>
-            <div className="card">
-                Пользователь 7 
-            </div>
-            <div className="card">
-                Пользователь 8
-            </div>
+            <CardOfModel className="user-model-card" userName={"Пользователь 1"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 2"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 3"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 4"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 5"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 6"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 7"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"Пользователь 8"} modelImgUrl={"/img-model-sample.jpg"} />
         </div>
     );
 }

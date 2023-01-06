@@ -14,7 +14,7 @@ export default function Header() {
             <Link className="load-model-link" to="/canvas">
                 <h3 className="load-model">Загрузить модель</h3>
             </Link>
-            <Link className="login-reg-button" to="/canvas">
+            <Link className="login-reg-button" to="/login">
                 <h3 className="login-reg">Вход / регистрация</h3>
             </Link>
         </header>
