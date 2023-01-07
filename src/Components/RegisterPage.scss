@@ -14,7 +14,9 @@
         text-align: center;
         width: fit-content;
         height: fit-content;
-        transform: translate(110%,30%);
+        margin: auto;
+        position: relative;
+        top: 2%;
     }
 
     .label-first-name{
@@ -67,13 +69,15 @@
     .h5-log{
         width: 300px;
         height: fit-content;
-        transform: translate(27%,50%);
+        margin: auto;
+        position: relative;
+        top: 6%;
     }
 
     .login-button{
         width: 150px;
         height: 5vh;
-        transform: translate(0,70%);
+        transform: translate(0,150%);
         background-color: #000000;
         border: 0;
         border-radius: 10px;

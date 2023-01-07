@@ -12,7 +12,8 @@
 
     .login-form-name{
         text-align: center;
-        transform: translate(12.5vw,50%);
+        margin: auto;
+        transform: translate(0,50%);
         width: fit-content;
         height: fit-content;
     }
@@ -57,7 +58,7 @@
 
     .login-button{
         background-color: #C25200;
-        transform: translate(1%,170%);
+        transform: translate(1%,100%);
         width: 110px;
         height: 5vh;
         border: 0;
@@ -67,8 +68,10 @@
 
     .h5-reg{
         width: 300px;
+        text-align: center;
         height: fit-content;
-        transform: translate(5.5vw,9.5vh);
+        margin: auto;
+        transform: translate(0,110%);
     }
 
     .register-button{

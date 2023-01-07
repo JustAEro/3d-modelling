@@ -31,10 +31,13 @@ export default function RegisterPage(){
                 <h3 className='reg-form-name'>Регистрация</h3>
 
                 {
-                    submitted && error && <h5 style={{color:"red",width:"fit-content",height:"25px"}}>Ошибка регистрации</h5>
+                    submitted && error && <h5 style={{color:"red",width:"fit-content",height:"25px",position:"relative",top:"2%"}}>Ошибка регистрации</h5>
                 }
                 {
                     submitted && !error && <h5 style={{color:"green",width:"fit-content",height:"25px"}}>Успешно</h5>
+                }
+                {
+                    !submitted && !error && <div style={{width:"fit-content",height:"25px"}}></div>
                 }
 
                 <label className='label-first-name' for="first-name">Имя</label>

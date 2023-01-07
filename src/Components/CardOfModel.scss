@@ -16,11 +16,21 @@
         width: 100%;
         height: fit-content;
         color: black;
+        font-size: 17px;
     }
 
-    .model-img{
-        transform: translate(0,20%);
-        width: 70%;
-        height: 50%;
+    .model-link{
+        display: block;
+        width: 100%;
+        height: 80%;
+
+        .model-img{
+            margin: auto;
+            transform: translate(-8.5%,6%);
+            width: 120%;
+            height: 85%;
+        }
     }
+
+    
 }

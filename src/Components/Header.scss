@@ -14,14 +14,17 @@ header {
     
     .load-model-link{
         text-decoration: none;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: 56vw;
+        top: 35%;
     }
 
     .load-model{
-        position: relative;
         width: fit-content;
         height: fit-content;
-        left: 56vw;
-        top: 35%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
