@@ -11,7 +11,7 @@ export default function Header() {
                 <img className="Logo" src="/3DLogo.png" alt="Error"/>
             </Link>
             <SearchPanel />
-            <Link className="load-model-link" to="">
+            <Link className="load-model-link" to="/upload-model">
                 <h3 className="load-model">Загрузить модель</h3>
             </Link>
             <Link className="login-reg-button" to="/login">

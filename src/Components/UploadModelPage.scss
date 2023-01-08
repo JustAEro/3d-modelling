@@ -1,0 +1,20 @@
+.upload-model-page{
+    font-family: 'Roboto';
+
+    .label-and-form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        width: 50%;
+    }
+
+    .error-message{
+        position: absolute;
+        top: 57vh;
+        left: 25%;
+        color: maroon;
+    }  
+}

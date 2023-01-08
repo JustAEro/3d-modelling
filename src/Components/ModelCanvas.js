@@ -7,20 +7,20 @@ import { useNavigate } from "react-router-dom";
 import './ModelCanvas.scss';
 
 
-function Model(props) {
-  const { scene } = useGLTF("/untitled.glb");
+function Model({ modelPath }) {
+  const { scene } = useGLTF(`${modelPath}`);
   return <primitive object={scene} />;
 }
 
-export default function ModelCanvas() {
+export default function ModelCanvas(props) {
   const navigate = useNavigate();
 
   return (
     <div>
-      <Canvas className="model-canvas" pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
+      <Canvas className="model-canvas" pixelratio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
         <ambientLight intensity={1} />
         <Suspense fallback={null}>
-          <Model />
+          <Model modelPath={props.modelPath} />
         </Suspense>
         <OrbitControls />
       </Canvas>
