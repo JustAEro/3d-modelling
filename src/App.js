@@ -12,6 +12,8 @@ import MainPage from "./Components/MainPage";
 import LoginPage from "./Components/LoginPage";
 import RegisterPage from "./Components/RegisterPage";
 import ModelPage from "./Components/ModelPage";
+import ProfilePage from "./Components/ProfilePage";
+import ProfileEditPage from "./Components/ProfileEditPage";
 
 export default function App() {
   const TITLE = "3Dmodelling";
@@ -28,6 +30,8 @@ export default function App() {
           <Route path="/register" element={<RegisterPage/>}></Route>
           <Route path="/canvas" element={<ModelCanvas/>}></Route>
           <Route path="/model" element={<ModelPage/>}></Route>
+          <Route path="/profile" element={<ProfilePage/>}></Route>
+          <Route path="/edit-profile" element={<ProfileEditPage/>}></Route>
         </Routes>
       </Router>
     </div>

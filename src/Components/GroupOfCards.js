@@ -7,7 +7,7 @@ import './GroupOfCards.scss';
 export default function GroupOfCards () {
     return (
         <div className="wrapper">
-            <CardOfModel className="user-model-card" userName={"fsf"} modelImgUrl={"/img-model-sample.jpg"} />
+            <CardOfModel className="user-model-card" userName={"fsf"} modelImgUrl={"/model-sample-photo.jpg"} />
             <CardOfModel className="user-model-card" userName={"john"} modelImgUrl={"/img-model-sample.jpg"} />
             <CardOfModel className="user-model-card" userName={"vxcvxvxc"} modelImgUrl={"/img-model-sample.jpg"} />
             <CardOfModel className="user-model-card" userName={"hyuyutyuytutyfsd"} modelImgUrl={"/img-model-sample.jpg"} />

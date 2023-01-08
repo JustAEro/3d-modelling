@@ -1,7 +1,7 @@
 .user-model-card{
     background-color: #ffffff;
-    width: 70%;
-    height: 75%;
+    width: 75%;
+    height: fit-content;
     text-align: center;
     vertical-align: middle;
     font-family: 'Roboto';
@@ -23,12 +23,16 @@
         display: block;
         width: 100%;
         height: 80%;
+        margin-bottom: 20%;
+        
+        
 
         .model-img{
             margin: auto;
-            transform: translate(-8.5%,6%);
-            width: 120%;
-            height: 85%;
+            margin-top: 5%;
+            width: 95%;
+            height: auto;
+            aspect-ratio: 16/9;
         }
     }
 

@@ -1,0 +1,36 @@
+.profile-edit-page{
+    font-family: 'Roboto';
+
+    .profile-card{
+        width: 25%;
+        height:fit-content;
+        position: absolute;
+        left: 6vw;
+        top: 15vh;
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+
+        .card-body{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .profile-edit-data{
+        width: 60vw;
+        height: fit-content;
+        position: absolute;
+        right: 6vw;
+        top: 15vh;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+        .card-body{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+}

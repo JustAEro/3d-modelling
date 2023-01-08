@@ -67,11 +67,13 @@
     }
 
     .h5-reg{
-        width: 300px;
+        width: 50%;
         text-align: center;
         height: fit-content;
         margin: auto;
-        transform: translate(0,110%);
+        position: relative;
+        top: 10%;
+        //transform: translate(0,110%);
     }
 
     .register-button{
